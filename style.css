@@ -102,12 +102,51 @@ li{
     font-weight: lighter;
 }
 
-a:link{
+a{
     text-decoration: none;
-}
-
-a:visited{
     color: grey;
 }
 
+#parapluie{
+    background-color: rgb(126, 208, 183);
+    grid-column: 1;
+    grid-row: 1;
+}
+#monnaie{
+    background-color: rgb(195, 174, 146);
+    grid-column: 2;
+    grid-row: 1;
+}
+#fusée{
+    background-color: rgb(111, 190, 230);
+    grid-column: 3;
+    grid-row: 1;
+}
+#portefeuille{
+    background-color: rgb(238, 181, 82);
+    grid-column: 1;
+    grid-row: 2;
+}
+#calculatrice{
+    background-color: rgb(228, 132, 93);
+}
+#bank{
+    background-color: rgb(170, 204, 167);
+}
+#immeuble{
+    background-color: rgb(137, 156, 154);
+}
+
+.titre-icone{
+    font-size: large;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-left: 20px;
+}
+.container{
+    min-height: 300px;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr 1fr 1fr;
+}
 
