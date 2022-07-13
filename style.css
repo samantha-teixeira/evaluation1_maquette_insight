@@ -1,0 +1,113 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+</style>
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("images/phare.png")
+    
+}
+
+#login{
+    text-align: end;
+    margin: 25px 20px 0 0 ;
+}
+
+button{
+    background-color: rgb(255, 236, 128);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: larger;
+}
+.button:visited{
+    color: black;
+}
+
+button:hover{
+    background-color: red;
+}
+
+a{
+    color: black;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 100px;
+    margin: 250px 0 0 125px;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    font-weight: lighter;
+    font-size: 50px;
+    margin: 0px 0 0 200px;
+}
+
+main{
+    text-align: center;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 100px;
+    margin: 10px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 44px;
+    margin: 10px 0px;
+}
+nav{
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    margin: 100px 20px 50px 20px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+li{
+    list-style: none;
+    border: solid 2px;
+    padding: 10px 50px;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    color: grey;
+}
+
+
